@@ -8,13 +8,12 @@
   font-family: 'Poppins', sans-serif;
 }
 .sidebar{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 260px;
   background: #11101d;
- 
   transition: all 0.5s ease;
 }
 .sidebar.close{
@@ -210,11 +209,11 @@
   font-size: 12px;
 }
 .home-section{
-  position: relative;
+  position: fixed;
   background: #E4E9F7;
-  height: 100vh;
-  left: 260px;
-  width: calc(100% - 260px);
+  margin-left: 78px;
+  height: 48px;
+  width: 100%;
   transition: all 0.5s ease;
 }
 .sidebar.close ~ .home-section{

@@ -7,9 +7,6 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class NavbarComponent {
 
-  @Output() Nstatus= new EventEmitter <boolean>();
   
-  clickEvent(){
-    this.Nstatus.emit(true);
-  }
+ 
 }

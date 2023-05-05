@@ -7,7 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
-import { ToggleDirective } from './shared/toggle.directive';
+import { SidebarDirective } from './shared/sidebar.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { ToggleDirective } from './shared/toggle.directive';
     SidebarComponent,
     NavbarComponent,
     DashboardComponent,
-    ToggleDirective
+    SidebarDirective
   ],
   imports: [
     BrowserModule,

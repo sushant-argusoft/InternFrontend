@@ -4,7 +4,7 @@ import { Directive, ElementRef, HostBinding, HostListener } from "@angular/core"
     selector:'[appToggle]'
 })
 export class SidebarDirective{
-  @HostBinding('class.close')  isOpen = false;
+  @HostBinding('class.close')  isOpen = true;
  @HostListener('document: click',['$event']) toggleOpen(event: Event){
 
     
